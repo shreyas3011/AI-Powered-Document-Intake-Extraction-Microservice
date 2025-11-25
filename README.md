@@ -105,5 +105,13 @@ The response includes:
 - Database errors are logged and handled gracefully
 - OCR processing errors return 500 Internal Server Error
 
+## challenges
+- OCR accuracy issues with low-quality, noisy, or skewed documents
+- Slow processing when handling large or high-resolution images
+- Ensuring extracted data is clean, validated, and structured
+- Integrating OCR results into JSON for further processing
+- Handling failed OCR attempts or unreadable files gracefully
+- Adapting to changes in document layouts or templates
+
 ## Development Notes
 This service is designed specifically for processing exam papers and student-related documents. The regex patterns are optimized for common exam paper formats and should extract the most relevant information including student details, questions, and marks allocation.
